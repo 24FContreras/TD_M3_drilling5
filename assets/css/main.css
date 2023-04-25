@@ -1,0 +1,26 @@
+body {
+  min-height: 100vh;
+  max-width: 100%;
+  background-color: gainsboro;
+}
+
+.card {
+  overflow: hidden;
+}
+
+.card img {
+  background-color: white;
+  max-height: 250px;
+  object-fit: contain;
+  object-position: center;
+}
+
+.tag {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: rgb(161, 159, 159);
+}
+
+.precio {
+  margin: 0 !important;
+}
